@@ -12,9 +12,6 @@ The Electric Billing System is a C-based application designed to manage customer
 - **Bill Projection**: Estimate next month's bill based on usage trends.
 - **Monthly Reports**: Generate detailed reports for billing and usage analysis.
 
-## Project Structure
-. ├── 1.jpg ├── 2.jpg ├── 3.jpg ├── bill.c ├── C project report[3].docx ├── README.md └── output/ ├── bill.exe ├── customer_data.bin
-
 
 ## How to Run
 
