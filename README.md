@@ -21,44 +21,44 @@ The Electric Billing System is a C-based application designed to manage customer
    gcc -o bill bill.c
 
 2. **Run the Program**: 
-Execute the compiled program: ./bill
+- Execute the compiled program: ./bill
 
 3. **Follow the Menu**: The program provides a menu-driven interface for managing customers, generating bills, and viewing reports.
 
 **Dependencies**
-A C compiler (e.g., GCC)
-Standard C libraries (stdio.h, stdlib.h, string.h, time.h)
+- A C compiler (e.g., GCC)
+- Standard C libraries (stdio.h, stdlib.h, string.h, time.h)
 
 **Usage**
 **Adding a Customer**
-Enter customer details such as name, address, phone, email, and meter number.
-Assign a customer type (Residential, Commercial, or Industrial).
+- Enter customer details such as name, address, phone, email, and meter number.
+- Assign a customer type (Residential, Commercial, or Industrial).
 
 **Generating a Bill**
-Input the current meter reading and time-of-use usage.
-The system calculates the bill amount based on tiered pricing and tax rates.
+- Input the current meter reading and time-of-use usage.
+- The system calculates the bill amount based on tiered pricing and tax rates.
 
 **Recording Payments**
-Mark bills as paid and specify the payment method (e.g., Cash, Credit Card).
+- Mark bills as paid and specify the payment method (e.g., Cash, Credit Card).
 
 **Generating Reports**
-Generate monthly reports summarizing customer activity, billing, and energy usage.
+- Generate monthly reports summarizing customer activity, billing, and energy usage.
 
 **Example Report**
-An example report is generated in the output/ directory. It includes:
+- An example report is generated in the output/ directory. It includes:
 
--Customer summary
--Billing summary
--Usage by customer type
--Time-of-use analysis
--Top 5 consumers
--Payment methods analysis
+- Customer summary
+- Billing summary
+- Usage by customer type
+- Time-of-use analysis
+- Top 5 consumers
+- Payment methods analysis
 
 
 **Future Enhancements**
--Add support for exporting reports in CSV or PDF format.
--Implement a graphical user interface (GUI).
--Integrate with online payment systems.
+- Add support for exporting reports in CSV or PDF format.
+- Implement a graphical user interface (GUI).
+- Integrate with online payment systems.
 
 **Author**
--Developed by Subham.
+- Developed by Subham.
